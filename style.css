@@ -112,14 +112,17 @@ p {
         padding: 0;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 60vh 40vh;
+        grid-template-rows: 60vh fit-content(40vh);
+
     
     }
 
     #Profile {
-        padding: 42px 42px 0px 42px; /*top right bottom left*/
+        padding: 42px 42px 42px 42px; /*top right bottom left*/
         margin: 0;
         background-color: #1B95EE;
+        overflow: visible;
+ 
     
     }
 
