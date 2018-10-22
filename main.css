@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Website {
+    margin: 0;
+
+    display: grid;
+    grid-auto-columns:max-content;
+    grid-template-columns: minmax(560px, 1fr) 1fr;
+    grid-template-rows: minmax(max-content, 100vh);
+    padding: 0 0;
+    border: 0 0; 
+    background-color: white;
+
+
+
+}
+
+.Headshot {
+
+    
+    background-color: green;
+    padding: 0 0;
+    margin: 0 0;
+    border: 0 0; 
+    position: relative; /*gives reference to position absolute items like the svg*/
+    align-items: center;
+    overflow: auto;
+ 
+
+}
+
+.Headshot .Me {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    z-index: 100;
+    position:absolute;
+    bottom: -4px;
+    left: calc(50% - 280px);
+
+
+
+}
+.Headshot .Arrow {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position:absolute;
+    top: 0;
+    left: calc(50% - 211px);
+
+}
+.Content {
+
+    background-color: #1B95EE;
+    padding: 0 0;
+    margin: 0 0;
+    border: 0 0; 
+
+
+}
