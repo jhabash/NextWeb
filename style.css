@@ -16,17 +16,22 @@ body {
 
 }
 
+#Header {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 85vh;
+    background-color: white;
+
+}
+
 #HeaderImage {
 
-    background-color: white;
-    background-size: contain; /* Resize the background image to cover the entire container */
-    
-    background-position: center bottom; /* Center the image */
-    background-repeat: no-repeat;
-
-
     background-image: url("./ProfilePhoto.png");
-
+    background-size: contain; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center bottom; /* Center the image */
+    
 }
 
 #Profile {
