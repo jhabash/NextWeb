@@ -1,12 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 body {
 
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+
+h1 {
+
+    padding: 0px 0px 0px 0px;
+    margin: 0px 5px 0px 0px;
+
+}
+
+h2 {
+    padding: 3px;
+    margin: 0 0 24px 0;
+    color: #201F2A;
+    line-height: 30px;
+
+
+}
+
+h3 {
+    padding: 3px;
+    margin: 0 0 24px 0;
+    color: #201F2A;
+    border-bottom: 2px solid #201F2A;
+
+
+}
+
+p {
+
+    margin: 0 0 24px 0;
+    padding: 0;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 300;
 
 
 }
 
 #Page {
+
+    
 
     margin: 0;
     padding: 0;
@@ -35,10 +77,23 @@ body {
 }
 
 #Profile {
-
+    padding: 24vh 42px 0px 42px; /*top right bottom left*/
+    margin: 0;
     background-color: #1B95EE;
+    overflow: auto;
+
 
 }
+
+
+.list-columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5px;
+    column-count: 2;
+    column-gap:5px;
+    }
 
 @media screen and (max-width: 900px)  { 
 
@@ -51,7 +106,6 @@ body {
     
     }
 
-
     #Page {
 
         margin: 0;
@@ -62,6 +116,11 @@ body {
     
     }
 
-
+    #Profile {
+        padding: 42px 42px 0px 42px; /*top right bottom left*/
+        margin: 0;
+        background-color: #1B95EE;
+    
+    }
 
 }
