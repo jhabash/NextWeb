@@ -40,3 +40,28 @@ body {
 
 }
 
+@media screen and (max-width: 900px)  { 
+
+    #Header {
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15fr 85fr;
+        background-color: white;
+    
+    }
+
+
+    #Page {
+
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 60vh 40vh;
+    
+    }
+
+
+
+}
