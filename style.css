@@ -69,7 +69,7 @@ p {
 
 #HeaderImage {
 
-    background-image: url("./ProfilePhoto-Compressed.png");
+    background-image: url("./ProfilePhoto-Compressed.svg");
     background-size: contain; /* Resize the background image to cover the entire container */
     background-repeat: no-repeat;
     background-position: center bottom; /* Center the image */
