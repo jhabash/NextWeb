@@ -14,7 +14,7 @@
   <body>
     <div id = "Page">
 
-      <div id = "Header">
+      <div id = "Header" onwheel="myFunction(event)">
 
         <div id = "HeaderText"></div>
         <div id = "HeaderImage"></div>
@@ -22,7 +22,7 @@
 
       </div>
 
-      <div id = "Profile">
+      <div id = "Profile" >
 
           <h1>Jamal Habash</h1>
           <h2>Innovator, Thinker <br> & Engineer at Heart.</h2>
@@ -76,6 +76,24 @@
 
     </div>
     <!-- page content -->
-  
+
+
+    <script>
+
+      var curScroll = 0;
+
+      function myFunction(event) {
+          console.log(event.deltaY);
+          curScroll = event.deltaY;
+          document.getElementById('Profile').scrollTop = document.getElementById('Profile').scrollTop + curScroll;
+      }
+
+
+
+
+      </script>
+
+     
+ 
   </body>
 </html>
