@@ -54,7 +54,7 @@ p {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: minmax(560px, 1fr) 1fr;
+    grid-template-columns: minmax(560px, 45fr) 55fr;
     grid-template-rows: 100vh;
     
 
@@ -90,11 +90,11 @@ p {
 
 .list-columns {
     -moz-column-count: 2;
-    -moz-column-gap: 5px;
+    -moz-column-gap: 20px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 5px;
+    -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap:5px;
+    column-gap:20px;
     }
 
 @media screen and (max-width: 900px)  { 
